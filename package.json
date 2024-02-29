@@ -1,0 +1,22 @@
+{
+  "name": "airtable",
+  "version": "1.0.0",
+  "description": "Este repositório contém uma solução para a geração em massa de sites usando a ferramenta 11ty (Eleventy) e automação para criar arquivos Markdown a partir de um template JSON. O objetivo principal deste projeto é capacitar a criação rápida e eficiente de vários sites, utilizando inteligência artificial para automatizar partes do processo.",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx @11ty/eleventy && npx @11ty/eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  },
+  "dependencies": {
+    "@11ty/eleventy-cache-assets": "^2.3.0",
+    "@11ty/eleventy-fetch": "^4.0.0",
+    "airtable": "^0.12.2",
+    "dotenv": "^16.4.5"
+  }
+}

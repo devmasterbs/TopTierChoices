@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html, body, div{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.cabecalho{
+    padding-bottom: 15px;
+    
+}
+.cabecalho h1{
+    color: #000;
+    font-family: libre franklin,Sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.logo{
+    padding-top: 15px;
+}
+
+.site-content{
+    padding: 0 !important;
+    margin: 0px 30px;
+}
+.site-content p{
+    color: #000;
+    font-family: "Open Sans",Sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+     
+    padding: 0;
+}
+
+
+.imprensa{
+    text-align: center;
+}
+.imprensa p{
+    color: #0000FF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.procurar{
+    padding: 0 !important;
+}
+.procurar h2{
+    padding: 20px 0;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.maissobre li{
+    text-align: left;
+    list-style: none;
+}
+
+.maissobre h2{
+    padding: 15px 0;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.beneficios{
+    padding: 0 !important;
+}
+.beneficios h2{
+    padding: 20px 0;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+.lp-li{
+    color: #000;
+    font-family: "Open Sans",Sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+     
+}
+
+.top3{
+    padding: 0 !important;
+}
+.top3 h2{
+    padding: 20px 0;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.avane{
+    padding: 0 !important;
+    text-align: center;
+    background-color: #F4F4F4;
+    border-style: solid;
+    border-width: 5px 0px 0px 0px;
+    margin-bottom: 20px;
+}
+.avane img{
+    width: 100%;
+}
+.avane h3{
+    color: #000;
+    font-family: "Poppins",Sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+}
+.avane li{
+    color: #000;
+    font-family: "Open Sans",Sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+     
+    text-align: left;
+}
+.avane p{
+    text-align: left;
+}
+.avane .comprar{
+    font-size: 16px;
+    font-weight: 900;
+    padding: 20px 30px;
+    border-radius: 5px;
+    background-color: #61ce70;
+    border: none;
+    color: #000;
+}
+.avane .reviews{
+    text-align: center;
+    font-family: "Poppins",Sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+    margin-top: -5px;
+}
+
+
+.cupom{
+    width: 100%;
+}
+
+
+.bioplus{
+    padding: 0 !important;
+    text-align: center;
+    background-color: #F4F4F4;
+    border-style: solid;
+    border-width: 5px 0px 0px 0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.bioplus img{
+    width: 100%;
+}
+.bioplus h3{
+    color: #000;
+    font-family: "Poppins",Sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+}
+.bioplus li{
+    color: #000;
+    font-family: "Open Sans",Sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+     
+    text-align: left;
+}
+.bioplus p{
+    text-align: left;
+}
+.bioplus .comprar{
+    font-size: 16px;
+    font-weight: 900;
+    padding: 20px 30px;
+    border-radius: 5px;
+    background-color: #61ce70;
+    border: none;
+    color: #000;
+}
+.bioplus .reviews{
+    text-align: center;
+    font-family: "Poppins",Sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+    margin-top: -5px;
+}
+
+
+
+.heroderme{
+    padding: 0 !important;
+    text-align: center;
+    background-color: #F4F4F4;
+    border-style: solid;
+    border-width: 5px 0px 0px 0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.heroderme img{
+    width: 100%;
+}
+.heroderme h3{
+    color: #000;
+    font-family: "Poppins",Sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+}
+.heroderme li{
+    color: #000;
+    font-family: "Open Sans",Sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+     
+    text-align: left;
+}
+.heroderme p{
+    text-align: left;
+}
+.heroderme .comprar{
+    font-size: 16px;
+    font-weight: 900;
+    padding: 20px 30px;
+    border-radius: 5px;
+    background-color: #61ce70;
+    border: none;
+    color: #000;
+}
+.heroderme .reviews{
+    text-align: center;
+    font-family: "Poppins",Sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+    margin-top: -5px;
+}
+
+
+.indicacaoExtra{
+    padding: 0 !important;
+    text-align: center;
+    background-color: #F4F4F4;
+    border-style: solid;
+    border-width: 5px 0px 0px 0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.indicacaoExtra img{
+    width: 100%;
+}
+.indicacaoExtra h3{
+    color: #000;
+    font-family: "Poppins",Sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+}
+.indicacaoExtra li{
+    color: #000;
+    font-family: "Open Sans",Sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+     
+    text-align: left;
+}
+.indicacaoExtra p{
+    text-align: left;
+}
+.indicacaoExtra .comprar{
+    font-size: 16px;
+    font-weight: 900;
+    padding: 20px 30px;
+    border-radius: 5px;
+    background-color: #61ce70;
+    border: none;
+    color: #000;
+}
+.indicacaoExtra .reviews{
+    text-align: center;
+    font-family: "Poppins",Sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+    margin-top: -5px;
+}
+
+
+
+.fontes h4{
+    color: #000;
+    font-family: "Poppins",Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+}
+.fontes li{
+    color: #000;
+    font-family: "Poppins",Sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: left;
+}
+
+
+
+.sidebar{
+    padding: 0 !important;
+    text-align: center;
+}
+.sidebar .sidebarBtn{
+    font-size: 14px;
+    font-weight: 900;
+    padding: 15px 45px;
+    border-radius: 10px;
+    background-color: #61ce70;
+    border: none;
+    color: #000;
+}
+.sidebar p{
+    color: #0000FF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.rodape{
+    background-color: #ffffff;
+    padding: 30px 0;
+    text-align: center;
+    color: #d0d1d2;
+    font-family: helvetica, freesans, sans-serif;
+}
+.rodape a{
+    text-decoration: none;
+    color: #b1b1b1;
+    font-family: "Lora", Georgia, serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.fb-comments{
+    margin: 20px 0;
+}
+
+
+
+
+/* CARROSSEL */
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+    font-size: 50px !important;
+}
+.owl-carousel .owl-nav button.owl-next{
+    right: 0;
+}
+.owl-carousel .owl-nav button.owl-next:hover{
+    background-color: transparent;
+    color: #000;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    left: 0;
+}
+.owl-carousel .owl-nav button.owl-prev:hover{
+    background-color: transparent;
+    color: #000;
+}
+.owl-carousel .owl-item img
+{
+    width: 50% !important;
+    margin-left: auto;
+    margin-right: auto;
+}

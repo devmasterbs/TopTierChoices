@@ -1,0 +1,107 @@
+a .unicaDiv, a .assinaturaDiv{
+    background-color: #327fba;
+}
+.infoProdutos .unicaDiv, .infoProdutos .assinaturaDiv{
+    padding-bottom: 1.5rem !important;
+}
+.card-escolha{
+    z-index: 99;
+}
+.text-escolha{
+    margin: 5px; 
+    border-top-left-radius: 14px; 
+}
+.card-assine, .text-escolha{
+    border-top-right-radius: 14px;
+}
+.rende{
+    font-size: 23px; 
+}
+.rende, nav a p{
+    margin-bottom: 0;
+}
+.porcao{
+    font-size: 20px; 
+    margin-bottom: 10px;
+}
+.rende span, .porcao span, small span{
+    color: #ff7062;
+}
+.infoProdutos div img{
+    height: 150px;
+}
+.btn-mes{
+    padding: 0;
+}
+nav a{
+    height: 90px; 
+    width: 100%;
+}
+a .unicaDiv span, a .assinaturaDiv span{
+    font-size: 12px;
+}
+a h1{
+    font-weight: 600;
+}
+nav a p{
+    font-size: 15px; 
+    line-height: .7;
+}
+.btn-compra{
+    background-color: #00c222; 
+    border-color: #00c222; 
+    color: #FFFFFF;
+    border-radius: 2rem;
+    text-decoration: none;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.301);
+}
+.btn-compra:hover{
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+}
+.assine-li{
+    font-weight: bold;
+}
+.sim{
+    color: #1fab4b;
+}
+
+.seletor-de-sabores {
+    width: 100%;
+    background: #fff;
+}
+
+.seletor-de-sabores #escolher-sabores,
+.seletor-de-sabores .comprar-agora {
+    width: 100%;
+}
+
+.seletor-de-sabores #escolher-sabores {
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    appearance: auto;
+}
+
+.seletor-de-sabores select:focus {
+    outline: none;
+}
+
+.seletor-de-sabores select.error {
+    border-color: transparent;
+    outline: 2px solid #F01B1B;
+}
+
+.seletor-de-sabores select.error~.select-error {
+    display: block;
+}
+
+.select-error {
+    margin-top: -12px;
+    margin-bottom: 1rem;
+    display: none;
+    width: 100%;
+    padding: 0.1rem;
+    font-size: 0.9rem;
+    color: red;
+}
