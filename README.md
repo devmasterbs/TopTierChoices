@@ -1,4 +1,4 @@
-# Airtable Site Generator with 11ty
+# Airtable Site Generator com 11ty
 
 Este repositório contém uma solução para a geração em massa de sites usando a ferramenta 11ty (Eleventy) e automação para criar arquivos Markdown a partir do airtable. O objetivo principal deste projeto é possibilitar a criação rápida e eficiente de vários sites, usando inteligência artificial para automatizar partes do processo.
 
