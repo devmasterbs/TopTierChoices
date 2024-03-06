@@ -1,0 +1,109 @@
+<link rel="stylesheet" href="/assets/css/vendors/bootstrap/bootstrap.min.css">
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th, td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    #iframe-container {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 9999;
+            background-color: white;
+            border: 1px solid #ccc;
+            padding: 10px;
+    }
+</style>
+<table id="dynamic-table">
+    <thead>
+        <tr>
+            <th rowspan="2">Produtos</th>
+            <th rowspan="2">Foto</th>
+            <th rowspan="2">Ref.</th>
+            <th rowspan="2">Clique para Comprar</th>
+            <th rowspan="2">Destaque</th>
+            <th colspan="9">Detalhes</th>
+        </tr>
+        <tr>
+            <th>Tipo</th>
+            <th>Porção</th>
+            <th>Proteína</th>
+            <th>BCAA</th>
+            <th>Glutamina</th>
+            <th>Carboidrato</th>
+            <th>Sabor</th>
+            <th>Sabores Disponíveis</th>
+            <th>Quantidade</th>
+        </tr>
+    </thead>
+    <tbody>
+<p><tr>
+<td><a href="#" class="show-iframe" data-src="/produtos/whey-1/">INTEGRALMÉDICA - Whey 1</a></td>
+<td><img src="https://v5.airtableusercontent.com/v3/u/26/26/1709769600000/ZZ3v9BX4LVbbKMyoRvahnw/p3n87aC-E0dnz007SpYg2dN0O21vxCuDm7pK5nHdrmxQDhO16VjtaRmyBtcOrjldPTKrwj2vsxJ1k8zsQBaDGeCTU9bn506co16dvnUjL4-nRos6UIm_MTr1rfbGq2LicxuAvR-TSLqnByjzkFIx3g6AJ1PHnwrhIwRs0o2R32E/7FNyKIi0f0TqUo3jjj1_-8P9cU_SS5Q3H6WSdLBuTMo" alt="INTEGRALMÉDICA Whey 1" width="40"></td>
+<td>A partir de undefined</td>
+<td><a href="https://www.gsuplementos.com.br/whey-protein-concentrado-1kg-growth-supplements-p985936?gad_source=1&gclid=CjwKCAiAopuvBhBCEiwAm8jaMSXBrrcylU-px1XVyDmRGqeIx7x5LJO7VEGmK_35iXFrvdzJeZEfzRoCBPcQAvD_BwE" target="_blank" class="btn btn-primary">Comprar</a></td>
+<td>Título da descrição</td>
+<td>undefined</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr></p>
+<p><tr>
+<td><a href="#" class="show-iframe" data-src="/produtos/100-whey--7899941201781/">MAX TITANIUM - 100% Whey ｜ 7899941201781</a></td>
+<td><img src="https://v5.airtableusercontent.com/v3/u/26/26/1709769600000/hPFlXQJf0BOjvJATsWcieA/2eMu3toYD2P_kYkWB4sv_r0NjgaDpyyS4ewO5gWjMWL79L9vr5H8P6Bz3A1UOBjHKPk3XAy9ItUy3Ow503bP9-2ZVnsz9s2wPi7rxGwKhVUTotVvNo9EOHGFKv2-Veh4dHq5kkkXFtUC_EC7gmygM4O3mbdXSv1ZovLdLuMRh30/IyZP2p1rtu4aO0_9hrOeGKs8l5vkR0O5NWiNKNDBqn0" alt="MAX TITANIUM 100% Whey ｜ 7899941201781" width="40"></td>
+<td>A partir de R$96,90</td>
+<td><a href="https://www.amazon.com.br/100-Whey-900G-Chocolate-Titanium/dp/B08N355S9G/ref=zg_bs_g_16769374011_sccl_6/147-5665383-7678161" target="_blank" class="btn btn-primary">Comprar</a></td>
+<td>Auxilia nas Dietas de Emagrecimento</td>
+<td>Concentrado</td>
+<td>30 g (2 dosadores)</td>
+<td>21 g</td>
+<td>4,81 g</td>
+<td>3,80 g</td>
+<td>4,78 g</td>
+<td>---</td>
+<td>Baunilha, chocolate, cookies e morango</td>
+<td>900 g</td>
+</tr></p>
+<p></tbody></p>
+</table>
+<div id="iframe-container">
+    <iframe id="my-iframe" src="" width="600" height="400"></iframe>
+</div>
+<script>
+    const showIframeLinks = document.querySelectorAll('.show-iframe');
+    const iframeContainer = document.getElementById('iframe-container');
+    const myIframe = document.getElementById('my-iframe');
+
+    showIframeLinks.forEach(link => {
+        link.addEventListener('click', function(event) {
+            event.preventDefault();
+            const iframeSrc = this.getAttribute('data-src');
+            iframeContainer.style.display = 'block';
+            myIframe.src = iframeSrc;
+        });
+    });
+
+    window.addEventListener('click', function(event) {
+        if (!iframeContainer.contains(event.target) && !event.target.classList.contains('show-iframe')) {
+            iframeContainer.style.display = 'none';
+            myIframe.src = ''; // Limpa o src para parar de carregar o iframe
+        }
+    });
+</script>
+<script src="/assets/js/vendors/jquery/jquery.min.js"></script>
+<script src="/assets/js/vendors/bootstrap/bootstrap.min.js"></script>

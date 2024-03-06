@@ -1,0 +1,21 @@
+---
+idProduto: '4'
+nomeProduto: 'Whey 1'
+destaqueProduto: 'Título da descrição'
+descProduto: 'desc whey 1'
+imgProduto: 'https://v5.airtableusercontent.com/v3/u/26/26/1709769600000/ZZ3v9BX4LVbbKMyoRvahnw/p3n87aC-E0dnz007SpYg2dN0O21vxCuDm7pK5nHdrmxQDhO16VjtaRmyBtcOrjldPTKrwj2vsxJ1k8zsQBaDGeCTU9bn506co16dvnUjL4-nRos6UIm_MTr1rfbGq2LicxuAvR-TSLqnByjzkFIx3g6AJ1PHnwrhIwRs0o2R32E/7FNyKIi0f0TqUo3jjj1_-8P9cU_SS5Q3H6WSdLBuTMo'
+linkProduto: 'https://www.gsuplementos.com.br/whey-protein-concentrado-1kg-growth-supplements-p985936?gad_source=1&gclid=CjwKCAiAopuvBhBCEiwAm8jaMSXBrrcylU-px1XVyDmRGqeIx7x5LJO7VEGmK_35iXFrvdzJeZEfzRoCBPcQAvD_BwE'
+marcaProduto: 'INTEGRALMÉDICA'
+tags: ['Whey 1', 'produtos']
+precoProduto: 'undefined'
+tipoProduto: 'undefined'
+porcaoProduto: 'undefined'
+proteinaProduto: 'undefined'
+BCAAProduto: 'undefined'
+glutaminaProduto: 'undefined'
+carboidratoProduto: 'undefined'
+saborProduto: 'undefined'
+saboresProduto: 'undefined'
+qtdGramasProduto: 'undefined'
+layout: 'produtos'
+---
